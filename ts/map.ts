@@ -1,4 +1,4 @@
-/// <reference path="./../../MicrosoftMaps/Bing-Maps-V8-TypeScript-Definitions/types/MicrosoftMaps/Microsoft.Maps.All.d.ts" />
+/// <reference path="./../../Bing-Maps-V8-TypeScript-Definitions/types/MicrosoftMaps/Microsoft.Maps.All.d.ts" />
 
 import {DirectionsEvents} from "./DirectionsEvents";
 import {Location3d} from "./Location3d";
@@ -61,7 +61,7 @@ export default new function Map(): void {
         });
 
         return fetch(
-            'http://dev.virtualearth.net/REST/v1/Elevation/List?key=AtdwAaBSnuace6JXHBTvVptnkPHfkrovH-OKVwNm4xYpokb3wAcuSDqHSxtuIgDO',{
+            'http://dev.virtualearth.net/REST/v1/Elevation/List?key=[BING MAPS KEY]',{
                 body: `points=${flattenStringifiedPoints.join(',')}`,
                 method: 'POST',
                 headers: {

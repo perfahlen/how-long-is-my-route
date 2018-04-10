@@ -1,4 +1,5 @@
-/// <reference path="./../../MicrosoftMaps/Bing-Maps-V8-TypeScript-Definitions/types/MicrosoftMaps/Microsoft.Maps.All.d.ts" />
+/// <reference path="./../../Bing-Maps-V8-TypeScript-Definitions/types/MicrosoftMaps/Microsoft.Maps.All.d.ts" />
+
 import * as proj from 'proj4';
 import {Location3d} from './Location3d';
 
